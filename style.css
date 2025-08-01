@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Times New Roman;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 40px;
+}
+
+.outer-box {
+  height: 3rem;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: blue;
+  /*padding-top: 0.5rem;*/
+}
+
+.input-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  width: 18rem;
+  height: 4rem;
+  background-color: transparent;
+  color: black;
+  border: 2px dashed black;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 25px;
+}
+
+.play-btn {
+  height: 3rem;
+  width: 6rem;
+  background-color: orange;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  box-shadow: 6px 6px 0 rgb(138, 87, 17, 0.7); /* <-- shadow here */
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 28px;
+  font-weight: 900px;
+}
+
+.choices {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  font-size: 28px;
+}
+
+.your-choice {
+  height: 3rem;
+  width: 12rem;
+  background-color: #238a11;
+  text-align: center;
+  border-radius: 1rem;
+  padding-top: 0.7rem;
+  color: white;
+}
+
+.comp-choice {
+  height: 3rem;
+  width: 15rem;
+  background-color: #c91104;
+  text-align: center;
+  border-radius: 1rem;
+  padding-top: 0.7rem;
+  color: white;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 13rem;
+  font-size: 35px;
+  font-weight: 900; /* 🔧 fix: remove 'px' here */
+  color: black; /* optional: makes it pop on dark background */
+}
+
+.your-count,
+.comp-count {
+  text-align: center;
+  width: 12rem; /* Match .your-choice and .comp-choice widths */
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 3rem;
+  color: darkblue;
+  }
